@@ -1,0 +1,12 @@
+# ~/.bash_aliases
+# Alias definitions.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+# some more ls aliases
+#alias ll='ls -l'
+#alias la='ls -A'
+#alias l='ls -CF'
+
+alias edit='gedit'
+alias apt-install='sudo apt-get install'
+
