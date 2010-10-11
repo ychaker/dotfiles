@@ -38,6 +38,20 @@ set formatoptions=qrn1
 
 au FocusLost * :wa
 
+
+" Use TextMate's indentation commands
+nmap <D-[> <<
+nmap <D-]> >>
+vmap <D-[> <gv
+vmap <D-]> >gv
+
+" Use ctrl + [hjkl] instead of ctrl + w + [hjkl] for switching between split windows
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+
 " Use the same symbols as TextMate for tabstops and EOLs
 set list
 set listchars=tab:▸\ ,eol:¬
