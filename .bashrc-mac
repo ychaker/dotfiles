@@ -1,6 +1,7 @@
-export PATH="/opt/local/bin:$PATH"
 export PATH="/opt/local/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 
 test -r /sw/bin/init.sh && . /sw/bin/init.sh
 
@@ -24,17 +25,24 @@ export GRAILS_HOME
 PATH=$GRAILS_HOME/bin:$PATH
 export PATH
 
+NODE_PATH=/usr/local/lib/node_modules
+export NODE_PATH
+
 
 export EDITOR='subl -w'
 export SHELL=/bin/bash
 
 export DISPLAY=0.0
 alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
-alias mysql='mysql5'
+# alias mysql='mysql5'
 alias mysqladmin='/usr/local/mysql/bin/mysqladmin'
 alias mate='open -a TextMate.app'
 # alias edit='mate'
 alias edit='subl'
+
+alias sshaws='ssh -i ~/.ssh/youssef -l youssef ec2-50-19-191-150.compute-1.amazonaws.com'
+
+export PATH="$(brew --prefix)/bin:$PATH"
 
 
 # MacPorts Installer addition on 2010-06-28_at_13:13:53: adding an appropriate PATH variable for use with MacPorts.
@@ -42,3 +50,5 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+export CC=gcc-4.2
