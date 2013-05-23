@@ -56,3 +56,6 @@ alias edit="subl"
 alias zshconfig="edit ~/.zshrc"
 alias ohmyzsh="edit ~/.oh-my-zsh"
 alias aws-ssh='ssh -i ~/.ssh/youssef -l youssef ec2-50-19-191-150.compute-1.amazonaws.com'
+
+export EDITOR="subl -w"
+export GIT_EDITOR="vim"
