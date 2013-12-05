@@ -12,11 +12,13 @@ autodetach on
 
 # Useful?
 startup_message off
-defflow off
-defscrollback 5000
+# defflow off
+# defscrollback 5000
 
 # Should we make TERM=xterm or TERM=screen ... ?
 term 'screen'
+
+shell '/bin/zsh'
 
 # Select screens 10-19 with shift+0-9.
 bind  ) select 10
