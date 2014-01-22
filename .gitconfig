@@ -2,7 +2,7 @@
   name = Youssef Chaker
   email = youssef.chaker@gmail.com
 [heroku]
-  account = personal
+  account = work
 [diff]
 [color]
   ui = auto
