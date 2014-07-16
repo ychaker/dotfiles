@@ -46,7 +46,7 @@ plugins=(git ruby rails bundler brew coffee github heroku history node rake rvm 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
+export PATH="/usr/local/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 export PATH="$HOME/bin:$PATH"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
@@ -65,3 +65,6 @@ alias rundpd='dpd -P 27017 -H localhost -n testing-deployd -d'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### Load docker
+export DOCKER_HOST=tcp://localhost:4243
