@@ -50,7 +50,7 @@ plugins=(git ruby rails bundler brew coffee github heroku history node rake rvm 
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -83,13 +83,35 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/bin:$PATH"
 
 # Add RVM to PATH for scripting
-PATH=$PATH:$HOME/.rvm/bin 
+PATH=$PATH:$HOME/.rvm/bin
 
+# Editors
 alias edit="subl"
 alias zshconfig="edit ~/.zshrc"
 alias ohmyzsh="edit ~/.oh-my-zsh"
+
+# Amazon SSH
 alias aws-ssh='ssh -i ~/.ssh/youssef -l youssef ec2-50-19-191-150.compute-1.amazonaws.com'
-alias rspec=’nocorrect rspec’
+
+# Bundle shortcuts
+alias be='bundle exec'
+alias bi='bundle install'
+alias bis='bundle install --binstubs'
+alias bx='bundle exec'
+alias bo='bundle open'
+alias bs='bundle show'
+alias bu='bundle update'
+
+# Prevent zsh autocorrect for these
+alias rspec='nocorrect rspec'
+alias foreman='nocorrect foreman'
+
+# Test shortcuts
+alias bspec='bundle exec rspec'
+alias bcuc='bundle exec cucumber'
+
+# Start server
+alias s='foreman s'
 
 # Set editors
 export EDITOR="subl -w"
@@ -99,5 +121,3 @@ alias rundpd='dpd -P 27017 -H localhost -n testing-deployd -d'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-# source ~/dev/zsh-git-prompt/zshrc.sh
