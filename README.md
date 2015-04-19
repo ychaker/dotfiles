@@ -23,6 +23,13 @@ ln -s ~/dev/shell-files/bin ~/bin
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
 ```
 
+## Vim Config
+
+```
+ln -s ~/dev/shell-files/vim/.vimrc ~/.vimrc
+ln -s ~/dev/shell-files/vim/.vim ~/.vim
+```
+
 ## Git Config
 
 ```
