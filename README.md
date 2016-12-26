@@ -51,3 +51,10 @@ ln -s ~/dev/shell-files/zsh/.zshrc ~/.zshrc
 ln -s ~/dev/shell-files/zsh/themes/ychaker.zsh-theme ~/.oh-my-zsh/themes/ychaker.zsh-theme
 ln -s ~/dev/shell-files/zsh/themes/ychaker-dark.zsh-theme ~/.oh-my-zsh/themes/ychaker-dark.zsh-theme
 ```
+
+## Tmux Config
+
+```
+ln -s ~/dev/shell-files/tmux/.tmux.conf ~/.tmux.conf
+tmux source-file ~/.tmux.conf
+```

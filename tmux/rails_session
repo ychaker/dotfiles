@@ -1,0 +1,6 @@
+neww -n server
+splitw -h
+neww -n commands
+neww -n git
+selectw -t 1
+selectp -t 0

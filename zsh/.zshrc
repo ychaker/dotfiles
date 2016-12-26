@@ -119,5 +119,11 @@ export GIT_EDITOR="vim"
 
 alias rundpd='dpd -P 27017 -H localhost -n testing-deployd -d'
 
+alias weather='curl -4 http://wttr.in/austin'
+
+function tmux_rails () {
+  tmux new-session -s "$1" "tmux source-file ~/dev/shell-files/tmux/rails_session"
+}
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
