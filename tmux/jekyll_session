@@ -1,0 +1,3 @@
+neww -n server
+neww -n git
+selectw -t 1
