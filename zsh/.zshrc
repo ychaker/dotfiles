@@ -46,7 +46,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ruby rails bundler brew coffee github heroku history node rake rvm sublime gnu-utils git-extras git-flow-avh)
+plugins=(osx vagrant tmux git github brew ruby rails bundler yarn heroku history rake sublime gnu-utils git-extras git-flow-avh)
 
 # User configuration
 

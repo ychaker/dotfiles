@@ -58,3 +58,9 @@ ln -s ~/dev/shell-files/zsh/themes/ychaker-dark.zsh-theme ~/.oh-my-zsh/themes/yc
 ln -s ~/dev/shell-files/tmux/.tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 ```
+
+## Use the install script
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ychaker/shell-files/master/install.sh)"
+```
