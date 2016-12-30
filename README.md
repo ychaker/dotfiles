@@ -62,5 +62,9 @@ tmux source-file ~/.tmux.conf
 ## Use the install script
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ychaker/shell-files/master/install.sh)"
+source <(curl -s https://raw.githubusercontent.com/ychaker/shell-files/master/install.sh)
 ```
+
+Run the above command to install everything at once.
+When you are prompted for the password, enter your system's password (eg. if you're running it in a Vagrant instance, the password would be `vagrant`).
+Once `oh-my-zsh` installs, it spawns a new subprocess that you need to `exit` from to let the script continue running.
