@@ -64,6 +64,8 @@ ln -s ~/dev/shell-files/vim/.vim ~/.vim
 ln -s ~/dev/shell-files/git/.gitconfig ~/.gitconfig
 ln -s ~/dev/shell-files/git/.githelpers ~/.githelpers
 
+ln -s ~/dev/shell-files/ssh/config ~/.ssh/config
+
 ln -s ~/dev/shell-files/zsh/.zshrc ~/.zshrc
 ln -s ~/dev/shell-files/zsh/themes/ychaker.zsh-theme ~/.oh-my-zsh/themes/ychaker.zsh-theme
 ln -s ~/dev/shell-files/zsh/themes/ychaker-dark.zsh-theme ~/.oh-my-zsh/themes/ychaker-dark.zsh-theme
