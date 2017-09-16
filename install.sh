@@ -26,6 +26,7 @@ install_tmux() {
   local platform=$1
 
   if [[ $platform == 'osx' ]]; then
+    brew install reattach-to-user-namespace
     brew install tmux
   elif [[ $platform == 'linux' ]]; then
     sudo apt-get -y install tmux
