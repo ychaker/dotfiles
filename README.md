@@ -59,6 +59,32 @@ ln -s ~/dev/shell-files/tmux/.tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 ```
 
+## Themes (not included in the install script)
+
+### Alfred
+
+```
+git clone https://github.com/dracula/alfred
+```
+
+### Sublime
+
+```
+Install Package Control
+cmd+shift+p
+Package Control: Install Package
+Dracula Color Scheme
+cmd+shift+p
+UI: Select Color Scheme
+Dracula
+```
+
+### iTerm
+
+```
+git clone https://github.com/dracula/iterm.git
+```
+
 ## Use the install script
 
 ```
