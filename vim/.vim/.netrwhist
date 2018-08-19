@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/Users/youssefchaker/dev/wwweb'
 let g:netrw_dirhist_2='/Users/ychaker/dev/nest/nest/.git'
+let g:netrw_dirhist_3='/private/tmp'

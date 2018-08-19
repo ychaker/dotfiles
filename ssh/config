@@ -12,3 +12,8 @@ Host git.wpengine.com
   Hostname git.wpengine.com
   User git
   IdentityFile ~/.ssh/wpengine_rsa
+
+Host bitbucket.org
+  Hostname bitbucket.org
+  User git
+  IdentityFile ~/.ssh/bitbucket_rsa
