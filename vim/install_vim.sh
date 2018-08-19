@@ -34,6 +34,8 @@ gem install seeing_is_believing
 
 echo "Creating .vim folders if necessary"
 mkdir -p $DOTVIM/{autoload,bundle}
+cd $DOTVIM
+git init
 cd $DOTVIM/bundle/
 
 tpope_repos=(rails git cucumber fugitive surround unimpaired abolish repeat markdown endwise)
