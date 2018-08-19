@@ -122,11 +122,11 @@ alias rundpd='dpd -P 27017 -H localhost -n testing-deployd -d'
 alias weather='curl -4 http://wttr.in/austin'
 
 function tmux_rails () {
-  tmux new-session -s "$1" "tmux source-file ~/dev/shell-files/tmux/rails_session"
+  tmux new-session -s "$1" "tmux source-file ~/dev/dotfiles/tmux/rails_session"
 }
 
 function tmux_jekyll () {
-  tmux new-session -s "$1" "tmux source-file ~/dev/shell-files/tmux/jekyll_session"
+  tmux new-session -s "$1" "tmux source-file ~/dev/dotfiles/tmux/jekyll_session"
 }
 
 ### Added by the Heroku Toolbelt

@@ -6,7 +6,7 @@
 cd ~
 mkdir dev
 cd dev
-git clone git@github.com:ychaker/shell-files.git
+git clone git@github.com:ychaker/dotfiles.git
 ```
 
 ## Remove Existing Files
@@ -19,22 +19,22 @@ rm ~/.zshrc
 ## Symlink Scripts
 
 ```
-ln -s ~/dev/shell-files/bin ~/bin
+ln -s ~/dev/dotfiles/bin ~/bin
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
 ```
 
 ## Vim Config
 
 ```
-ln -s ~/dev/shell-files/vim/.vimrc ~/.vimrc
-ln -s ~/dev/shell-files/vim/.vim ~/.vim
+ln -s ~/dev/dotfiles/vim/.vimrc ~/.vimrc
+ln -s ~/dev/dotfiles/vim/.vim ~/.vim
 ```
 
 ## Git Config
 
 ```
-ln -s ~/dev/shell-files/git/.gitconfig ~/.gitconfig
-ln -s ~/dev/shell-files/git/.githelpers ~/.githelpers
+ln -s ~/dev/dotfiles/git/.gitconfig ~/.gitconfig
+ln -s ~/dev/dotfiles/git/.githelpers ~/.githelpers
 ```
 
 ## Zsh Config
@@ -47,15 +47,15 @@ git clone git@github.com:olivierverdier/zsh-git-prompt.git
 ```
 
 ```
-ln -s ~/dev/shell-files/zsh/.zshrc ~/.zshrc
-ln -s ~/dev/shell-files/zsh/themes/ychaker.zsh-theme ~/.oh-my-zsh/themes/ychaker.zsh-theme
-ln -s ~/dev/shell-files/zsh/themes/ychaker-dark.zsh-theme ~/.oh-my-zsh/themes/ychaker-dark.zsh-theme
+ln -s ~/dev/dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/dev/dotfiles/zsh/themes/ychaker.zsh-theme ~/.oh-my-zsh/themes/ychaker.zsh-theme
+ln -s ~/dev/dotfiles/zsh/themes/ychaker-dark.zsh-theme ~/.oh-my-zsh/themes/ychaker-dark.zsh-theme
 ```
 
 ## Tmux Config
 
 ```
-ln -s ~/dev/shell-files/tmux/.tmux.conf ~/.tmux.conf
+ln -s ~/dev/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 ```
 
@@ -88,7 +88,7 @@ git clone https://github.com/dracula/iterm.git
 ## Use the install script
 
 ```
-source <(curl -s https://raw.githubusercontent.com/ychaker/shell-files/master/install.sh)
+source <(curl -s https://raw.githubusercontent.com/ychaker/dotfiles/master/install.sh)
 ```
 
 Run the above command to install everything at once.

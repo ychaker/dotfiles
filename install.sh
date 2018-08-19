@@ -51,24 +51,24 @@ mkdir -p ~/dev
 cd ~/dev
 
 git clone https://github.com/olivierverdier/zsh-git-prompt.git
-git clone https://github.com/ychaker/shell-files.git
+git clone https://github.com/ychaker/dotfiles.git
 
 [ -e ~/.gitconfig ] && rm ~/.gitconfig
 [ -e ~/.zshrc ] && rm ~/.zshrc
 
-ln -s ~/dev/shell-files/bin ~/bin
+ln -s ~/dev/dotfiles/bin ~/bin
 
-ln -s ~/dev/shell-files/vim/.vimrc ~/.vimrc
-ln -s ~/dev/shell-files/vim/.vim ~/.vim
+ln -s ~/dev/dotfiles/vim/.vimrc ~/.vimrc
+ln -s ~/dev/dotfiles/vim/.vim ~/.vim
 
-ln -s ~/dev/shell-files/git/.gitconfig ~/.gitconfig
-ln -s ~/dev/shell-files/git/.githelpers ~/.githelpers
+ln -s ~/dev/dotfiles/git/.gitconfig ~/.gitconfig
+ln -s ~/dev/dotfiles/git/.githelpers ~/.githelpers
 
-ln -s ~/dev/shell-files/ssh/config ~/.ssh/config
+ln -s ~/dev/dotfiles/ssh/config ~/.ssh/config
 
-ln -s ~/dev/shell-files/zsh/.zshrc ~/.zshrc
-ln -s ~/dev/shell-files/zsh/themes/ychaker.zsh-theme ~/.oh-my-zsh/themes/ychaker.zsh-theme
-ln -s ~/dev/shell-files/zsh/themes/ychaker-dark.zsh-theme ~/.oh-my-zsh/themes/ychaker-dark.zsh-theme
+ln -s ~/dev/dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/dev/dotfiles/zsh/themes/ychaker.zsh-theme ~/.oh-my-zsh/themes/ychaker.zsh-theme
+ln -s ~/dev/dotfiles/zsh/themes/ychaker-dark.zsh-theme ~/.oh-my-zsh/themes/ychaker-dark.zsh-theme
 
-ln -s ~/dev/shell-files/tmux/.tmux.conf ~/.tmux.conf
+ln -s ~/dev/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
