@@ -94,3 +94,5 @@ then
 else
 	echo "It was already added. Good to go"
 fi
+
+cd $HOME
