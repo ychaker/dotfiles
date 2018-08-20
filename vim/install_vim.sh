@@ -25,7 +25,7 @@ get_repo() {
         cd ..
     else
         echo "Cloning repo for $repo"
-        git submodule add git://github.com/$gh_user/$repo.git
+        git submodule add https://github.com/$gh_user/$repo.git
     fi
 }
 
