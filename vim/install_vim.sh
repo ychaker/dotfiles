@@ -72,12 +72,6 @@ get_repo "ervandew" "supertab"
 echo "Installing vim-indent-object"
 get_repo "michaeljsmith" "vim-indent-object"
 
-echo "Installing vim-indent-object"
-get_repo "t9md" "vim-ruby-xmpfilter"
-
-echo "Installing vim-indent-object"
-get_repo "hwartig" "vim-seeing-is-believing"
-
 cd $DOTVIM/autoload
 echo "Fetching latest pathogen.vim"
 rm pathogen.vim
@@ -87,7 +81,7 @@ echo "Checking to see if pathogen has already been added to .vimrc"
 pathogen_cmd="execute pathogen#infect()"
 contains=`grep "$pathogen_cmd" ~/.vimrc | wc -l`
 
-if [ $contains == 0 ]
+if [ $contains -eq 0 ]
 then
 	echo "Hasn't been added, adding now."
 	echo "$pathogen_cmd" >> ~/.vimrc
