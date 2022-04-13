@@ -54,3 +54,5 @@
   tool = vimdiff
 [pull]
 	rebase = true
+[credential]
+	helper = cache --timeout=28800

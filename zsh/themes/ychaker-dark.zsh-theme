@@ -15,7 +15,7 @@ else
 fi
 
 local return_code='%(?..%{$fg[red]%}%? ↵%{$reset_color%})'
-# local git_branch='$(git_prompt_status)%{$reset_color%}$(git_prompt_info)%{$reset_color%}'
+local git_branch='$(git_prompt_status)%{$reset_color%}$(git_prompt_info)%{$reset_color%}'
 
 git_prompt='$(git_super_status)'
 
@@ -32,4 +32,4 @@ ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[yellow]%} ═"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[cyan]%} ✭"
 
 PROMPT="${user} ${pwd}$ "
-RPROMPT="${date_time} ${git_prompt} ${rvm} ${return_code}"
+RPROMPT="${date_time} ${git_prompt} ${git_branch} ${rvm} ${return_code}"
