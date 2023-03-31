@@ -90,9 +90,6 @@ alias edit="subl"
 alias zshconfig="edit ~/.zshrc"
 alias ohmyzsh="edit ~/.oh-my-zsh"
 
-# Amazon SSH
-alias aws-ssh='ssh -i ~/.ssh/youssef -l youssef ec2-50-19-191-150.compute-1.amazonaws.com'
-
 # Bundle shortcuts
 alias be='bundle exec'
 alias bi='bundle install'
@@ -117,9 +114,9 @@ alias s='foreman s'
 export EDITOR="subl -w"
 export GIT_EDITOR="vim"
 
-alias rundpd='dpd -P 27017 -H localhost -n testing-deployd -d'
+alias weather='curl -4 http://wttr.in/atlanta'
 
-alias weather='curl -4 http://wttr.in/austin'
+alias ssh-openvpn='ssh -i ~/Dropbox/Tools/OpenVPN/OpenVPN.pem openvpnas@3.83.215.81'
 
 function tmux_rails () {
   tmux new-session -s "$1" "tmux source-file ~/dev/dotfiles/tmux/rails_session"
