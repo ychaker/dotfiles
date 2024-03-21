@@ -1,0 +1,7 @@
+neww -n editor
+splitw -v
+resizep -D 20
+selectp -t 0
+neww -d -n git
+neww -d -n commands
+selectw -t editor

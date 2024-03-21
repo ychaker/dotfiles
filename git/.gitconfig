@@ -4,7 +4,7 @@
   required = true
 [user]
   name = Youssef Chaker
-  email = youssef.chaker@gmail.com
+  email = youssef@bearandgiraffe.com
 [heroku]
 [diff]
 [color]
@@ -50,6 +50,8 @@
   l = "!. ~/.githelpers && pretty_git_log"
   la = !git l --all
 
+[fetch]
+  prune = true
 [merge]
   tool = vimdiff
 [pull]

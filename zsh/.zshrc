@@ -128,3 +128,6 @@ function tmux_jekyll () {
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# k3s config with raspberry pi cluster
+export KUBECONFIG=$HOME/.kube/k3s/config

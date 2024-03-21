@@ -1,12 +1,16 @@
+[filter "lfs"]
+  clean = git lfs clean %f
+  smudge = git lfs smudge %f
+  required = true
 [user]
   name = Youssef Chaker
-  email = youssef.chaker@keeward.com
+  email = <email>
 [heroku]
 [diff]
 [color]
   ui = auto
 [core]
-  editor = vim
+  editor = nvim
 [alias]
   st = status
   ci = commit
@@ -46,5 +50,11 @@
   l = "!. ~/.githelpers && pretty_git_log"
   la = !git l --all
 
+[fetch]
+  prune = true
 [merge]
   tool = vimdiff
+[pull]
+	rebase = true
+[credential]
+	helper = cache --timeout=28800

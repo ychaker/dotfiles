@@ -17,3 +17,33 @@ Host bitbucket.org
   Hostname bitbucket.org
   User git
   IdentityFile ~/.ssh/bitbucket_rsa
+
+Host picluster-node1.local
+  Hostname picluster-node1.local
+  User pi
+  IdentityFile ~/.ssh/id_rsa
+
+Host picluster-node2.local
+  Hostname picluster-node2.local
+  User pi
+  IdentityFile ~/.ssh/id_rsa
+
+Host picluster-node3.local
+  Hostname picluster-node3.local
+  User pi
+  IdentityFile ~/.ssh/id_rsa
+
+Host picluster-node4.local
+  Hostname picluster-node4.local
+  User pi
+  IdentityFile ~/.ssh/id_rsa
+
+Host picluster-node5.local
+  Hostname picluster-node5.local
+  User pi
+  IdentityFile ~/.ssh/id_rsa
+
+Host picluster-node6.local
+  Hostname picluster-node6.local
+  User pi
+  IdentityFile ~/.ssh/id_rsa
