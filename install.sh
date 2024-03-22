@@ -58,9 +58,6 @@ git clone https://github.com/ychaker/dotfiles.git
 
 ln -s ~/dev/dotfiles/bin ~/bin
 
-ln -s ~/dev/dotfiles/vim/.vimrc ~/.vimrc
-ln -s ~/dev/dotfiles/vim/.vim ~/.vim
-
 ln -s ~/dev/dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/dev/dotfiles/git/.githelpers ~/.githelpers
 

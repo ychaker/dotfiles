@@ -26,8 +26,7 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
 ## Vim Config
 
 ```
-ln -s ~/dev/dotfiles/vim/.vimrc ~/.vimrc
-ln -s ~/dev/dotfiles/vim/.vim ~/.vim
+vim/install_vim.sh
 ```
 
 ## Git Config
