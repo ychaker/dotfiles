@@ -1,4 +1,4 @@
-require "irb/competion"
+require "irb/completion"
 
 IRB.conf[:SAVE_HISTORY] = 1_000
 IRB.conf[:AUTO_INDENT] = true
