@@ -5,18 +5,16 @@ if has('nvim')
 endif
 
 Plug 'airblade/vim-gitgutter', { 'branch': 'main' }
+Plug 'dense-analysis/ale'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ervandew/supertab'
-Plug 'jc00ke/taglist.vim'
-Plug 'kaicatalado/material.vim', { 'branch': 'main' }
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'mg979/vim-visual-multi'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'mileszs/ack.vim'
 Plug 'msanders/snipmate.vim'
 Plug 'ryanoasis/vim-devicons'
-Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-cucumber'
 Plug 'tpope/vim-endwise'
@@ -27,5 +25,5 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
-Plug 'vim-ariline/vim-arline'
+Plug 'vim-airline/vim-airline'
 Plug 'vim-ruby/vim-ruby'
