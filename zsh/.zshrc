@@ -110,6 +110,13 @@ alias bcuc='bundle exec cucumber'
 # Start server
 alias s='foreman s'
 
+# Alias ls to lsd (brew install lsd)
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
+
 # Set editors
 export EDITOR="subl -w"
 export GIT_EDITOR="vim"
