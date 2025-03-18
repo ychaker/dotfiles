@@ -87,7 +87,7 @@ git clone https://github.com/dracula/iterm.git
 ## Use the install script
 
 ```
-source <(curl -s https://raw.githubusercontent.com/ychaker/dotfiles/master/install.sh)
+source <(curl -s https://raw.githubusercontent.com/ychaker/dotfiles/main/install.sh)
 ```
 
 Run the above command to install everything at once.
