@@ -11,8 +11,5 @@ ln -sf "$PWD/.vimrc_local" "$HOME/.vimrc_local"
 
 ~/.vim/activate.sh
 
-# echo "Installing Seeing is Believing"
-# gem install seeing_is_believing
-
 vim  +PlugInstall +PlugUpdate +PlugClean +qall
 nvim +PlugInstall +PlugUpdate +PlugClean +qall
