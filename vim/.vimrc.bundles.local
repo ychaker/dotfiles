@@ -7,7 +7,8 @@ endif
 Plug 'airblade/vim-gitgutter', { 'branch': 'main' }
 Plug 'dense-analysis/ale'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'ervandew/supertab'
+Plug 'ervandew/supertab', { 'branch': 'main' }
+Plug 'github/copilot.vim', { 'branch': 'main' }
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'mg979/vim-visual-multi'
 Plug 'michaeljsmith/vim-indent-object'
