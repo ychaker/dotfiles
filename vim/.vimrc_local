@@ -73,6 +73,10 @@ highlight SpecialKey guifg=#4a4a59
 
 set ts=4 sts=4 sw=4 noexpandtab
 
+let g:minimap_width=10
+let g:minimap_auto_start=1
+let g:minimap_auto_start_win_enter=1
+
 syntax on
 filetype plugin indent on
 
