@@ -82,9 +82,6 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$HOME/bin:$PATH"
 
-# Add RVM to PATH for scripting
-PATH=$PATH:$HOME/.rvm/bin
-
 # Editors
 alias edit="subl"
 alias zshconfig="edit ~/.zshrc"
@@ -132,6 +129,13 @@ function tmux_rails () {
 function tmux_jekyll () {
   tmux new-session -s "$1" "tmux source-file ~/dev/dotfiles/tmux/jekyll_session"
 }
+
+# Make sure chruby is loaded
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+
+# brew config
+export PATH="/usr/local/sbin:$PATH"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
